@@ -1,0 +1,42 @@
+.moreline-overflow-elision-2 {
+  display: -webkit-box;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.moreline-overflow-elision-3 {
+  display: -webkit-box;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.moreline-overflow-elision-4 {
+  display: -webkit-box;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+/* 文字选中效果 */
+*::selection {
+  color: black;
+  background-color: rgb(2 235 243);
+}
+*::-webkit-selection {
+  color: black;
+  background-color: rgb(2 235 243);
+}
+
+// 滚动条 隐藏样式
+.scrollbar-none::-webkit-scrollbar-track-piece {
+  background: rgb(0 0 0 / 0%);
+}
+
+// scrollbar width
+.scrollbar-none::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
