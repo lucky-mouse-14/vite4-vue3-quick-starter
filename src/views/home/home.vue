@@ -25,7 +25,7 @@ const mouseState = reactive(useMouseInElement(refMouseMask))
 <style lang="scss">
 .home-container {
   height: 100vh;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
